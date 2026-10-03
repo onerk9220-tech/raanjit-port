@@ -1,0 +1,28 @@
+export const clients = [
+  "Upgrade",
+  "Arbor Academy",
+  "Cybknowacademy",
+  "GI School",
+  "Wonderla",
+  "Apple",
+  "Emato Ceramic",
+  "MD Marble",
+  "Evorium Plywood",
+  "GK Interior and Construction",
+  "Audi Care",
+  "Shoe Mafia",
+  "Party Planner kunu",
+  "Aquaguard",
+  "Mobinext",
+  "Majhi Traders",
+  "Plot Cuttack",
+  "Popular Devloper",
+  "Shree Events",
+  "Mobilinq",
+  "Star Finance",
+  "Shree Hari Mobiles",
+  "AS Zone Ltd.",
+  "Lavis Salon",
+];
+
+export default clients;

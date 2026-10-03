@@ -1,0 +1,1071 @@
+You are a senior UI/UX designer and React developer.
+
+Build a COMPLETE, production-ready personal portfolio website for a professional content creator named:
+
+RANJIT NAYAK
+
+He is a:
+- Content Creator
+- Professional Photographer
+- Videographer
+- Cinematographer
+- Video Editor
+- Visual Storyteller
+- Creative Director
+
+He has worked with 150+ clients.
+
+IMPORTANT:
+Create the entire project as a modern React + Vite website.
+
+The final project must be ready to:
+1. Download as a ZIP
+2. Extract
+3. Run with npm install
+4. Run with npm run dev
+5. Build with npm run build
+6. Deploy directly to Vercel
+
+Do NOT create a backend.
+Do NOT require a database.
+Do NOT require authentication.
+Do NOT use paid APIs.
+Everything should work using local assets/data.
+
+==================================================
+TECH STACK
+==================================================
+
+Use:
+
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
+- Framer Motion
+- Lucide React icons
+- React Router if necessary
+
+Use clean reusable components.
+
+Organize the project professionally.
+
+Suggested structure:
+
+src/
+  components/
+  sections/
+  pages/
+  data/
+  assets/
+  App.jsx
+  main.jsx
+  index.css
+
+public/
+  images/
+  videos/
+
+==================================================
+DESIGN DIRECTION
+==================================================
+
+The website should look like a premium creative agency / filmmaker portfolio.
+
+Style:
+
+- Minimal
+- Cinematic
+- Premium
+- Modern
+- Artistic
+- High-end
+- Editorial
+- Photography-focused
+- Dark luxury aesthetic
+
+Primary theme:
+
+Black / charcoal / off-white.
+
+Use large typography.
+
+Use lots of whitespace.
+
+Use full-screen photography.
+
+Use subtle animations.
+
+Avoid:
+- Generic template appearance
+- Excessive gradients
+- Excessive cards
+- Corporate dashboard style
+- Too many colors
+- Cheap-looking animations
+
+The website should immediately communicate:
+
+"Ranjit doesn't just capture moments.
+He tells stories through visuals."
+
+==================================================
+RESPONSIVE DESIGN
+==================================================
+
+The website MUST be fully responsive.
+
+Desktop:
+1920px
+1440px
+1280px
+
+Tablet:
+1024px
+768px
+
+Mobile:
+480px
+390px
+375px
+
+The mobile version must feel intentionally designed, not just a desktop layout squeezed down.
+
+==================================================
+NAVIGATION
+==================================================
+
+Create a premium sticky navigation.
+
+Logo:
+
+RN
+RANJIT NAYAK
+
+Navigation:
+
+Home
+Work
+About
+Services
+Clients
+Contact
+
+Right side:
+
+"Let's Create →"
+
+On mobile:
+Use hamburger menu with smooth animation.
+
+Navigation should become transparent/overlay on hero and transform into a dark/blurred navbar when scrolling.
+
+==================================================
+HERO SECTION
+==================================================
+
+Create an immersive cinematic hero.
+
+Full viewport height.
+
+Background:
+Large cinematic photography/video.
+
+If video is used, provide a local placeholder video path such as:
+
+/videos/hero.mp4
+
+If the video does not exist, gracefully fall back to an image.
+
+Hero content:
+
+RANJIT NAYAK
+
+Visual Storyteller
+Photographer • Filmmaker • Content Creator
+
+Main statement:
+
+"Stories, captured beautifully."
+
+Supporting text:
+
+"Creating cinematic visuals, powerful photographs and memorable digital experiences for brands, people and moments that matter."
+
+CTA buttons:
+
+VIEW MY WORK
+LET'S WORK TOGETHER
+
+Add small statistics:
+
+150+
+Clients
+
+500+
+Projects
+
+5+
+Years of Creativity
+
+Use animated counters.
+
+Add a scroll indicator at the bottom.
+
+==================================================
+INTRO / ABOUT PREVIEW
+==================================================
+
+Create an editorial section.
+
+Heading:
+
+"I turn moments into visual stories."
+
+Text:
+
+"From intimate portraits to large-scale brand campaigns, I create photographs and films that feel authentic, cinematic and memorable."
+
+Add a large portrait/image.
+
+Add small label:
+
+BASED IN ODISHA, INDIA
+
+Add:
+
+Available for projects worldwide.
+
+Button:
+
+MORE ABOUT RANJIT →
+
+==================================================
+FEATURED WORK
+==================================================
+
+This should be the most visually impressive section.
+
+Title:
+
+SELECTED WORK
+
+Subtitle:
+
+"A collection of stories, people, brands and moments I've had the privilege to capture."
+
+Create a masonry / editorial gallery.
+
+Categories:
+
+ALL
+PHOTOGRAPHY
+VIDEOGRAPHY
+BRANDS
+WEDDINGS
+PORTRAITS
+EVENTS
+COMMERCIAL
+
+Each project should have:
+
+Large image
+Project name
+Category
+Year
+Short description
+
+Example projects:
+
+01
+"Moments in Motion"
+Wedding Film
+2026
+
+02
+"Beyond the Frame"
+Portrait Photography
+2026
+
+03
+"Urban Stories"
+Commercial Campaign
+2025
+
+04
+"Golden Hour"
+Portrait Series
+2025
+
+05
+"Raw & Real"
+Lifestyle Photography
+2025
+
+06
+"Celebration"
+Event Film
+2024
+
+IMPORTANT:
+
+Make project data editable from:
+
+src/data/projects.js
+
+Do not hardcode everything inside components.
+
+==================================================
+PROJECT HOVER EFFECT
+==================================================
+
+When hovering over a project:
+
+- Image zooms slightly
+- Dark overlay appears
+- Project title animates
+- "VIEW PROJECT →" appears
+
+Use Framer Motion.
+
+On mobile, use tap-friendly interactions.
+
+==================================================
+PROJECT DETAIL
+==================================================
+
+Create reusable project detail pages.
+
+When clicking a project:
+
+Open a beautiful project detail page.
+
+Include:
+
+Project title
+Category
+Year
+Client
+Location
+Project description
+
+Large hero image
+
+Image gallery
+
+Optional video
+
+Project story
+
+Credits
+
+CTA:
+
+"Have a project in mind?"
+
+"Let's create something unforgettable."
+
+==================================================
+PHOTOGRAPHY SECTION
+==================================================
+
+Create a dedicated photography showcase.
+
+Heading:
+
+PHOTOGRAPHY
+
+Subheading:
+
+"Frames that hold a feeling."
+
+Create a sophisticated gallery.
+
+Categories:
+
+Portraits
+Weddings
+Fashion
+Lifestyle
+Events
+Commercial
+
+Use different image aspect ratios.
+
+Implement lightbox functionality.
+
+When clicking an image:
+
+Open fullscreen lightbox.
+
+Features:
+
+Previous
+Next
+Close
+Image counter
+
+Keyboard support:
+ESC
+Arrow Left
+Arrow Right
+
+==================================================
+VIDEOGRAPHY SECTION
+==================================================
+
+Create a cinematic video section.
+
+Heading:
+
+VIDEOGRAPHY
+
+Text:
+
+"Moving images. Real emotions. Stories that stay."
+
+Create large video thumbnails.
+
+Each video should show:
+
+Play button
+Title
+Category
+Duration
+
+Clicking a video opens a modal.
+
+Support local videos.
+
+Example paths:
+
+/videos/project-01.mp4
+/videos/project-02.mp4
+
+If video files don't exist, show a beautiful placeholder instead of breaking.
+
+==================================================
+SERVICES
+==================================================
+
+Create an elegant services section.
+
+Heading:
+
+WHAT I DO
+
+Services:
+
+01 — Photography
+
+Portraits
+Events
+Weddings
+Commercial
+Lifestyle
+Product
+
+02 — Videography
+
+Brand Films
+Wedding Films
+Event Films
+Music Videos
+Social Media Content
+
+03 — Content Creation
+
+Instagram Reels
+YouTube Content
+Short-form Videos
+Campaign Content
+
+04 — Post Production
+
+Video Editing
+Color Grading
+Photo Retouching
+Motion Graphics
+
+05 — Creative Direction
+
+Campaign Concepts
+Visual Storytelling
+Creative Planning
+
+Each service should have subtle hover animation.
+
+==================================================
+PROCESS
+==================================================
+
+Create:
+
+MY PROCESS
+
+01
+DISCOVER
+
+Understanding your story, brand and vision.
+
+02
+PLAN
+
+Building the creative direction and visual concept.
+
+03
+CREATE
+
+Capturing the photographs and films.
+
+04
+REFINE
+
+Editing, color grading and final production.
+
+05
+DELIVER
+
+Delivering polished content ready to share.
+
+Use a horizontal timeline on desktop and vertical timeline on mobile.
+
+==================================================
+CLIENTS / TRUST
+==================================================
+
+Create a section:
+
+TRUSTED BY 150+ CLIENTS
+
+Show client logos using text placeholders.
+
+Example:
+
+Brand One
+Brand Two
+Studio X
+Company Y
+Client Z
+
+IMPORTANT:
+Make these editable from a data file.
+
+Below the logos:
+
+"Every project is different.
+The goal is always the same —
+create something people remember."
+
+==================================================
+TESTIMONIALS
+==================================================
+
+Create a premium testimonial slider.
+
+Example:
+
+"Working with Ranjit was an incredible experience. He understood exactly what we wanted and turned our idea into something much better than we imagined."
+
+— Client Name
+Brand / Company
+
+Create 3–5 testimonial entries.
+
+Make them editable from:
+
+src/data/testimonials.js
+
+Do NOT fabricate real client names.
+Use placeholder names clearly marked for replacement.
+
+==================================================
+ABOUT PAGE
+==================================================
+
+Create a dedicated About page.
+
+Hero:
+
+ABOUT RANJIT
+
+Headline:
+
+"Behind every frame is a story."
+
+Include:
+
+Large portrait
+
+Biography:
+
+"Ranjit Nayak is a photographer, filmmaker and content creator focused on creating honest, cinematic and visually engaging stories."
+
+Mention:
+
+150+ clients
+Photography
+Videography
+Content Creation
+Creative Direction
+
+Create a personal timeline:
+
+The Beginning
+First Projects
+Growing the Craft
+150+ Clients
+Today
+
+Do not invent exact years.
+Use placeholders where exact information is unavailable.
+
+==================================================
+CLIENT STATISTICS
+==================================================
+
+Create animated statistics:
+
+150+
+Clients
+
+500+
+Projects
+
+1000+
+Stories Captured
+
+100%
+Passion
+
+Use count-up animation.
+
+Make all values editable.
+
+==================================================
+INSTAGRAM / SOCIAL SECTION
+==================================================
+
+Create:
+
+FOLLOW THE JOURNEY
+
+@ranjitnayak
+
+Display a grid of 6–9 social images.
+
+Button:
+
+FOLLOW ON INSTAGRAM →
+
+Do not use a fake Instagram API.
+
+Use placeholder links that can easily be replaced.
+
+==================================================
+CONTACT SECTION
+==================================================
+
+Create a premium contact section.
+
+Heading:
+
+HAVE A STORY TO TELL?
+
+Text:
+
+"Whether you're planning a campaign, documenting a special moment or building your brand, let's create something meaningful."
+
+Contact information:
+
+Ranjit Nayak
+
+Email:
+hello@ranjitnayak.com
+
+Phone:
++91 XXXXX XXXXX
+
+Location:
+Odisha, India
+
+Buttons:
+
+EMAIL ME
+WHATSAPP
+INSTAGRAM
+
+Make these editable from:
+
+src/data/contact.js
+
+==================================================
+CONTACT FORM
+==================================================
+
+Create a beautiful contact form.
+
+Fields:
+
+Name
+Email
+Phone
+Project Type
+Budget
+Message
+
+Project Type:
+
+Photography
+Videography
+Wedding
+Brand Campaign
+Content Creation
+Other
+
+Budget:
+
+Below ₹25K
+₹25K – ₹50K
+₹50K – ₹1L
+₹1L+
+
+IMPORTANT:
+
+There is NO backend.
+
+Use frontend validation.
+
+On submit:
+Show:
+
+"Thank you! Your message has been prepared."
+
+Provide a mailto fallback.
+
+Do not pretend the message was actually sent to a server.
+
+==================================================
+FOOTER
+==================================================
+
+Premium minimal footer.
+
+RANJIT NAYAK
+
+Photographer
+Filmmaker
+Content Creator
+
+Navigation:
+
+Home
+Work
+About
+Services
+Contact
+
+Social:
+
+Instagram
+YouTube
+Facebook
+LinkedIn
+
+Footer text:
+
+© 2026 Ranjit Nayak. All rights reserved.
+
+Add:
+
+Designed & crafted with passion.
+
+==================================================
+ANIMATIONS
+==================================================
+
+Use Framer Motion carefully.
+
+Animations:
+
+- Fade in
+- Slide up
+- Image reveal
+- Text reveal
+- Parallax
+- Scale
+- Smooth hover
+- Page transitions
+
+Do NOT over-animate.
+
+Animations should feel cinematic.
+
+==================================================
+CURSOR
+==================================================
+
+Desktop only:
+
+Create a subtle custom cursor.
+
+When hovering over images:
+
+Cursor becomes:
+
+VIEW
+
+When hovering over links:
+
+Cursor changes appropriately.
+
+Disable custom cursor on mobile/tablet.
+
+==================================================
+LOADING SCREEN
+==================================================
+
+Create a premium loading screen.
+
+Display:
+
+RN
+
+RANJIT NAYAK
+
+with a simple percentage/loading animation.
+
+Keep it short.
+
+Do not make users wait unnecessarily.
+
+==================================================
+IMAGE HANDLING
+==================================================
+
+Create a centralized image configuration.
+
+Example:
+
+src/data/images.js
+
+Use placeholder images that are easy to replace.
+
+IMPORTANT:
+
+Every image must have:
+
+- alt text
+- lazy loading where appropriate
+
+Do not use broken image URLs.
+
+Create a fallback image component.
+
+If a local image does not exist, show a beautiful placeholder.
+
+==================================================
+CONTENT MANAGEMENT
+==================================================
+
+Make the website easy for a non-developer to update.
+
+Centralize editable content in:
+
+src/data/
+  projects.js
+  services.js
+  testimonials.js
+  clients.js
+  images.js
+  contact.js
+  siteConfig.js
+
+Do NOT scatter important text throughout components.
+
+==================================================
+SEO
+==================================================
+
+Add:
+
+Page title:
+
+Ranjit Nayak — Photographer, Filmmaker & Content Creator
+
+Meta description:
+
+"Ranjit Nayak is a photographer, filmmaker and content creator creating cinematic visual stories for brands, people and events."
+
+Open Graph metadata.
+
+Favicon.
+
+Semantic HTML.
+
+Proper heading hierarchy.
+
+Alt text.
+
+==================================================
+PERFORMANCE
+==================================================
+
+Optimize for:
+
+Fast loading
+Mobile performance
+Lazy loaded images
+Compressed media
+Minimal JavaScript where possible
+
+Avoid huge unnecessary libraries.
+
+Use CSS for simple effects instead of JavaScript when possible.
+
+==================================================
+ACCESSIBILITY
+==================================================
+
+Include:
+
+Keyboard navigation
+ARIA labels where needed
+Visible focus states
+Good contrast
+Alt text
+Accessible buttons
+Accessible modals
+ESC to close modals
+
+==================================================
+404 PAGE
+==================================================
+
+Create a creative 404 page.
+
+Text:
+
+"Looks like this frame doesn't exist."
+
+Button:
+
+BACK HOME
+
+==================================================
+README
+==================================================
+
+Create a detailed README.md.
+
+Include:
+
+Project overview
+
+Installation:
+
+npm install
+
+Development:
+
+npm run dev
+
+Production:
+
+npm run build
+
+Preview:
+
+npm run preview
+
+Vercel deployment instructions.
+
+Explain exactly where to replace:
+
+Images
+Videos
+Client logos
+Testimonials
+Email
+Phone
+Instagram
+YouTube
+Project information
+
+==================================================
+VERCEL
+==================================================
+
+Make the project Vercel-ready.
+
+Use standard Vite configuration.
+
+Do not require environment variables.
+
+Make sure:
+
+npm run build
+
+works without errors.
+
+==================================================
+IMPORTANT QUALITY REQUIREMENTS
+==================================================
+
+The website must NOT look AI-generated or like a generic portfolio template.
+
+It should feel like a professional creative director designed it.
+
+Prioritize:
+
+Visual storytelling
+Large imagery
+Typography
+Whitespace
+Cinematic transitions
+Editorial layouts
+Premium interactions
+
+The homepage should immediately impress a potential client.
+
+==================================================
+FINAL CHECK
+==================================================
+
+Before completing the project:
+
+1. Check every route.
+2. Check every button.
+3. Check mobile responsiveness.
+4. Check image fallbacks.
+5. Check video fallbacks.
+6. Check lightbox.
+7. Check navigation.
+8. Check contact form.
+9. Check console for errors.
+10. Run npm run build.
+11. Fix all build errors.
+12. Make sure there are no broken imports.
+13. Make sure there are no missing components.
+14. Make sure the project can be deployed to Vercel.
+
+FINAL OUTPUT:
+
+Provide the COMPLETE React project in a ZIP file.
+
+The ZIP must contain the actual project files, including:
+
+package.json
+vite.config.js
+index.html
+src/
+public/
+README.md
+
+The user should be able to extract the ZIP and immediately run:
+
+npm install
+
+npm run dev
+
+and deploy the same project to Vercel.
